@@ -1,0 +1,68 @@
+/* General styles */
+.calculus-game {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Back button */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Derivative selection buttons */
+.derivative-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Answer button default style */
+.derivative-options button {
+    padding: 10px;
+    width: 150px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Correct Answer */
+.correct {
+    background-color: green !important;
+    color: white;
+}
+
+/* Incorrect Answer */
+.incorrect {
+    background-color: red !important;
+    color: white;
+}
+
+/* Feedback text */
+.feedback {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Next Question Button */
+.next-question {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

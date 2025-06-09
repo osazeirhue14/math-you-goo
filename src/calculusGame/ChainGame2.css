@@ -1,0 +1,64 @@
+.game-container {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px grey;
+    padding-bottom: 60px;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  .message {
+    font-weight: bold;
+  }
+  
+  .hint {
+    font-style: italic;
+    color: darkblue;
+    margin-top: 10px;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    width: 100%;
+    background-color: lightgrey;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: blue;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }

@@ -1,0 +1,91 @@
+/* General styles */
+/* Ensure the container stacks elements vertically */
+.calculus-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Position the graph properly */
+.plot-container {
+  width: 100%;
+  max-width: 600px; /* Adjust width if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Space between question and options */
+}
+
+
+/* Back button */
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 15px;
+  background: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the question */
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Answer options in a row */
+.derivative-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Answer buttons */
+.option-box {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Correct Answer */
+.correct {
+  background-color: green !important;
+  color: white;
+}
+
+/* Incorrect Answer */
+.incorrect {
+  background-color: red !important;
+  color: white;
+}
+
+/* Feedback text */
+.feedback {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Next Question Button */
+.next-question {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
